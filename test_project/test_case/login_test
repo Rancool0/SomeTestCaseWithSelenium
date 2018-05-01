@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<catalog>
+    <base url="http://localhost:8000/users/login/">
+    </base>
+    <login1 username="admin" passwd="abc123456!" wrong_msg="">
+        <login2 username="admin+time" passwd="abc123654A!"
+                wrong_msg="Please enter a correct username and password. Note that both fields may be case-sensitive.">
+        </login2>
+        <login3 username="admin" passwd="abc123654A!"
+                wrong_msg="Please enter a correct username and password. Note that both fields may be case-sensitive.">
+        </login3>
+        <login4 username="admin" passwd="" wrong_msg="Password">
+        </login4>
+        <login5 username="" passwd="abc123654A!" wrong_msg="Username">
+        </login5>
+        <login6 username="" passwd="" wrong_msg="Username">
+        </login6>
+    </login1>
+</catalog>
+

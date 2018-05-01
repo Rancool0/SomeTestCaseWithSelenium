@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<catalog>
+    <base url="http://localhost:8000/users/register/">
+    </base>
+    <login1 username="normal_admin" passwd="abc123654A!" wrong_msg="">
+        <login2 username="(十个随机数）×15" passwd="abc123654A!" wrong_msg="">
+        </login2>
+        <login3 username="（normaadmin）×16" passwd="abc123654A!" wrong_msg="">
+        </login3>
+        <login4 username="( ）hahaha" passwd="abc123654A!"
+                wrong_msg="Enter a valid username. This value may contain only letters, numbers, and @/./+/-/_ characters.">
+        </login4>
+        <login5 username="一位随机数" passwd="abc123654A!" wrong_msg="">
+        </login5>
+        <login6 username="normal_admin" passwd="" wrong_msg="Password">
+        </login6>
+        <login7 username="" passwd="abc123654A!" wrong_msg="Username">
+        </login7>
+        <login8 username="normal_admin" passwd="normal_admin" wrong_msg="The password is too similar to the username.">
+        </login8>
+        <login9 username="normal_admin" passwd='123456789' wrong_msg="This password is entirely numeric.">
+        </login9>
+        <login10 username="normal_admin" passwd="normal_admin" passwd_confirm='normaladmin'
+                 wrong_msg="The two password fields didn't match.">
+        </login10>
+        <login11 username="normal_admin" passwd="112233544" wrong_msg="This password is entirely numeric.">
+        </login11>
+        <login12 username="normal_admin" passwd="1234567"
+                 wrong_msg="This password is too short. It must contain at least 8 characters.">
+        </login12>
+        <login13 username="normal_admin" passwd="！@#  ￥%（）!" wrong_msg="">
+        </login13>
+        <login14 username="normal_admin" passwd="（normal_admin+time）×20" wrong_msg="">
+        </login14>
+        <login15 username="ll_admin" passwd="normal_admin!" wrong_msg="A user with that username already exists.">
+        </login15>
+    </login1>
+</catalog>
+
+
